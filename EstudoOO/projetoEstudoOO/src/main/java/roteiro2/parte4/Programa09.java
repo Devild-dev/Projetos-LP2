@@ -1,0 +1,25 @@
+package roteiro2.parte4;
+import java.util.Scanner;
+
+public class Programa09 {
+    public static void main(String[] args){
+        Scanner read = new Scanner(System.in);
+        int tam = 5;
+        int[] vetorNotas = new int[5];
+        
+        for(int i=0;i<tam;i++){   
+            System.out.println("Informe uma nota");
+            int nota = read.nextInt();
+            if(nota < 0 || nota > 10){
+                System.out.println("Valor inválido, insira um valor entre 0 e 10!");
+                i--;
+            }else{
+                vetorNotas[i] = nota;
+            }      
+        }
+        for(int i=0;i<tam;i++){
+            int aux = i+1;
+            System.out.println("A nota "+ aux +" é :"+ vetorNotas[i]);
+        }
+    }
+}
