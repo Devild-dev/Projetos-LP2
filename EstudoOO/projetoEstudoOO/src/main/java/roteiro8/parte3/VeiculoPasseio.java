@@ -1,4 +1,4 @@
-package roteiro8.parte2;
+package roteiro8.parte3;
 
 public class VeiculoPasseio extends Veiculo{
     private int qtdeMaxPassageiros;

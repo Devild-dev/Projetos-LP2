@@ -1,4 +1,4 @@
-package roteiro8.parte2;
+package roteiro8.parte3;
 
 public abstract class Veiculo {
     private String placa;
